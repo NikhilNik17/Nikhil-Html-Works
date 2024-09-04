@@ -1,0 +1,77 @@
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pages:hover{
+    zoom: 110%;
+}
+.orange:hover{
+    zoom: 110%;
+  
+}
+
+.orange{
+    animation-name: orange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+
+.ul li:hover{
+   
+    color: palevioletred;
+    
+}
+.animation22{
+    animation-name: newani;
+    
+   animation-timeline: view();
+   animation-range: entry0;
+   animation-range: space0;
+}
+
+@keyframes newani{
+
+    from{
+        scale:0.9;
+
+    }
+    to{
+        scale:1.0;
+    }
+}
+
+
+
+.images22{
+    width:100%;
+    padding: 20%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    width: 450px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+}
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
